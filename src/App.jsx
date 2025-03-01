@@ -1,9 +1,14 @@
+import Navbar from "./constants/Navbar";
+import Hero from "./constants/Hero";
+import Highlight from "./constants/Highlight";
 const App = () => {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlight />
+    </main>
   )
 }
 
