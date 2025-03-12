@@ -6,7 +6,7 @@ import { yellowImg } from "../utils";
 import * as THREE from 'three';
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
-import { models, sizes } from ".";
+import { models, sizes } from "."; 
 
 const Model = () => {
   const [size, setSize] = useState('small');
@@ -53,7 +53,7 @@ const Model = () => {
               item= {model}
               size={size}
             />
-             <ModelView 
+             <ModelView  
               index={2}
               groupRef = {large}
               gsapType="view2"
@@ -109,3 +109,4 @@ const Model = () => {
 }
 
 export default Model
+
