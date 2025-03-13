@@ -20,9 +20,10 @@ export default [
     },
     settings: { react: { version: '18.3' } },
     plugins: {
-      react,
+       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      '@react-three': reactThree
     },
     rules: {
       ...js.configs.recommended.rules,
