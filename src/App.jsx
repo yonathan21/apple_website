@@ -3,6 +3,11 @@ import Hero from "./constants/Hero";
 import Highlight from "./constants/Highlight";
 import Model from "./constants/Model";
 
+import * as Sentry from '@sentry/react';  
+import Features from "./constants/Features";
+
+
+
 const App = () => {
 
   return (
@@ -11,8 +16,9 @@ const App = () => {
       <Hero />
       <Highlight />
       <Model />
+      <Features />
     </main>
   )
 }
 
-export default App
+export default Sentry.withProfiler(App);
