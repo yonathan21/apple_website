@@ -9,6 +9,8 @@ export default defineConfig({
     project: "javascript-react"
   })],
 
+  base:"/apple_website",
+
   build: {
     sourcemap: true
   }
